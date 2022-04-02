@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.first_div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 8vh;
+    background-color: rgb(172, 235, 158);
+    position: fixed;
+    top: 0;
+
+    a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 22px;
+
+        &:hover {
+            color: rgb(77, 102, 68);
+        }
+    }
+    #general{
+        color: rgb(77, 102, 68);
+    }
+    .chef{
+        width: 50px;
+      margin-top: 10px;
+    }
+
+    .kitchen {
+        font-size: 50px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: rgb(94, 129, 90);
+    }
+
+}
+
+.img1 {
+    width: 100%;
+    height: 100vh;
+    margin-top: 8vh;
+
+   
+}
+
+
+
+.sect_first {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+   
+    img {
+        width: 350px;
+        padding-bottom: 3%;
+     
+    }
+
+    .sec_div {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .third_div {
+        width: 600px;
+        height: 500px;
+        display: flex;
+        text-align: center;
+        border: none;
+        background-color: rgb(237, 252, 235);
+        line-height: 40px;
+
+        p {
+            font-size: 20px;
+        }
+    }
+
+    .forth_div {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+}
+
+body{
+    background-color:rgb(133, 173, 124) ;
+}
+
+
+
+#footer{
+    margin-top:5%;
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: rgb(115, 146, 108);
+    
+    
+    img{
+        width: 30px;
+    }
+    span{
+        margin-left: 10px;
+    }
+    
+    a{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    }
